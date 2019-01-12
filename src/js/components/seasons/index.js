@@ -3,20 +3,7 @@ import PropTypes from 'prop-types'
 import { withStyles } from '@material-ui/core/styles'
 import Container from '../UI/container'
 import ListSeasons from '../UI/listSeasons'
-
-const seasonYears = [
-  2005,
-  2006,
-  2007,
-  2008,
-  2009,
-  2010,
-  2011,
-  2012,
-  2013,
-  2014,
-  2015
-]
+import seasonYears from './seasonsYears'
 
 const styles = () => ({
   root:{
